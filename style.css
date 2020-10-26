@@ -1,0 +1,45 @@
+html{
+    background: #fbfd87;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 40px;
+    padding: 40px;
+    color: #09033d;
+    border-top: 10px solid rgb(222, 166, 255);
+    background: rgb(173, 215, 253);
+}
+
+h1 {
+    font-size: 3em;
+    margin:0;
+}
+
+h2 {
+    font-size: 2em;
+    margin:2;
+}
+
+h3 {
+    background: rgb(222, 166, 255);
+}
+p {
+    line-height: 1.4em;
+}
+
+nav{
+    background-color: coral;
+}
+
+#blog {
+    border-top: 3px dotted rgb(222, 166, 255);
+}
+
+.blog-post {
+    border-bottom: 3px dotted rgb(222, 166, 255);
+}
+
+a [href= "https://www.linkedin.com/in/hannahcstarr/"]{
+    color: rgb(155, 247, 182);
+}

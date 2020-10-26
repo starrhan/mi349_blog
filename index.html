@@ -6,15 +6,22 @@
         <title>Homepage</title>
     </head>
     <body>
-        <nav>
-        <ul>
-            <li><a href="about.html">About Hannah</a></li>
-            <li><a href="index.html">Homepage</a></li>
-        </ul>
-        </nav>
-        <h1>Homepage</h1>
+        <header>
+            <h1>Homepage</h1>
+            <nav>
+              <ul>
+                <li><a href="about.html">About Hannah</a></li>
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+        </header>
+    <section id="blog">
        <h2>Blog One</h2>
-       <h3>By Hannah Starr on 10/11/2020</h3>
+       <article class="blog-post">
+       <h3>Birthday Weekend</h3>
+       <address class="author"><a rel="author" href= "https://www.linkedin.com/in/hannahcstarr/">Hannah Starr</a></address>
+       <time datetime="2020-10-12" title="October 12, 2020">Oct 12, 2020</time>
        <p>
            This weekend was my birthday. I turned 22 years old. To celebrate, my friends and I went to Barrio for some margaritas and tacos. My friend Brendan came to visit me. <br>
             Brendan goes to school in Toledo, Ohio and studies pharmacy. My roommates attended as well. My roommate's names are Kendyl, Kaelan, and Sarah. My neighbors across the<br>
@@ -27,8 +34,13 @@
         <p>
        <img src="bday.JPG" alt="Hannah at birthday dinner">
        </p>
+        </article>
+
        <h2>Blog Two</h2>
-       <h3>By Hannah Starr on 10/11/2020</h3>
+       <article class="blog-post">
+       <h3>Knee Surgery</h3>
+       <address class="author"><a rel="author" href= "https://www.linkedin.com/in/hannahcstarr/">Hannah Starr</a></address>
+       <time datetime="2020-10-12" title="October 12, 2020">Oct 12, 2020</time>
        <p>Next week, I am getting surgery on my knee. Unfortunately, I tore my ACL and meniscus and sprained my MCL. My MCL will be able to recover without any surgical intervention. <br>
            I was playing soccer with a group of my friends and collided with someone and twisted my knee. I went to the hospital that night and got x-rays. This happened a month ago. <br>
            Because of problems finding a caretaker that provides my insurance, it took over a month to get me scheduled for surgery. Next Thursday, I have to go to the hospital in the <br>
@@ -39,5 +51,39 @@
        <p>
            <img src="leg.PNG" alt="Hannah on crutches">
        </p>
+
+       <table>
+           <tr>
+               <th>Date</th>
+               <th>Event</th>
+               <th>Location</th>
+           </tr>
+           <tr>
+               <td>08/2020</td>
+               <td>Hannah moves into Apt 210</td>
+               <td>Michigan State University</td>
+           </tr>
+           <tr>
+               <td>09/2020</td>
+               <td>Hannah gets into Soccer Accident</td>
+               <td>Grassy Field at Apartment Complex</td>
+           </tr>
+           <tr>
+               <td>09/2020</td>
+               <td>Hannah goes to Emergency Room</td>
+               <td>Sparrow Hospital</td>
+           </tr>
+       </table>
+    </article>
+    </section>
+    <section>
+    <h3>Newsletter</h3>
+        <form>
+            <label>Sign up for our newsletter:
+                <input type="text">
+            </label>
+            <button>Submit</button>
+        </form>
+    </section>
     </body>
 </html>

@@ -92,3 +92,9 @@ table {
     display:flex;
     background: #fbfd87;
 }
+
+@media (max-width: 400px) {
+    #b1 {
+        background: greenyellow;
+    }
+}
